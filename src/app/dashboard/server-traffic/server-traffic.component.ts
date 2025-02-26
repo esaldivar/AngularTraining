@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
+import { DashboardItemComponent } from '../dashboard-item/dashboard-item.component';
 
 @Component({
   selector: 'server-traffic',
   standalone: true,
-  imports: [],
+  imports: [DashboardItemComponent],
   templateUrl: './server-traffic.component.html',
   styleUrl: './server-traffic.component.css'
 })
