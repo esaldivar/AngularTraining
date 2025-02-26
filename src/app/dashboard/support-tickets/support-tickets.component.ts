@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
+import { DashboardItemComponent } from "../dashboard-item/dashboard-item.component";
 
 @Component({
   selector: 'support-tickets',
   standalone: true,
-  imports: [],
+  imports: [DashboardItemComponent],
   templateUrl: './support-tickets.component.html',
   styleUrl: './support-tickets.component.css'
 })
